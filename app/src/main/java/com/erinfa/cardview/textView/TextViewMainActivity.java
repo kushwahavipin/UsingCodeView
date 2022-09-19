@@ -3,6 +3,7 @@ package com.erinfa.cardview.textView;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -14,7 +15,7 @@ import com.google.android.material.floatingactionbutton.ExtendedFloatingActionBu
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
-public class MainActivity extends AppCompatActivity {
+public class TextViewMainActivity extends AppCompatActivity {
     Animation rotate_open_anim, rotate_close_anim, from_bottom_anim, to_bottom_anim;
     FloatingActionButton floatingActionButton;
     ExtendedFloatingActionButton floatingActionButton1, floatingActionButton2, floatingActionButton3, floatingActionButton4;
@@ -45,27 +46,40 @@ public class MainActivity extends AppCompatActivity {
         floatingActionButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
+
+                Intent XML=new Intent(TextViewMainActivity.this,TextViewXML.class);
+                startActivity(XML);
+
+
+               // Toast.makeText(TextViewMainActivity.this, "XML", Toast.LENGTH_SHORT).show();
             }
         });
         floatingActionButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
+
+                Intent JAVA=new Intent(TextViewMainActivity.this,TextViewJAVA.class);
+                startActivity(JAVA);
+
+                //Toast.makeText(TextViewMainActivity.this, "JAVA", Toast.LENGTH_SHORT).show();
 
             }
         });
         floatingActionButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
+                Intent KOTLIN=new Intent(TextViewMainActivity.this,TextViewKotlin.class);
+                startActivity(KOTLIN);
+
+               // Toast.makeText(TextViewMainActivity.this, "Kotlin", Toast.LENGTH_SHORT).show();
 
             }
         });
         floatingActionButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
+
+                Toast.makeText(TextViewMainActivity.this, "File Not Attached", Toast.LENGTH_SHORT).show();
 
             }
         });

@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/activity_main.xml" value="0.1703125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/activity_text_view_java.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/activity_text_view_kotlin.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/activity_text_view_xml.xml" value="0.17447916666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/cards_layout.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/fragment_demo.xml" value="0.125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Flutter/CardView/app/src/main/res/layout/fragment_j_a_v_a.xml" value="0.125" />
